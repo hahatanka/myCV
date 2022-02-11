@@ -14,63 +14,84 @@ body {
     margin: 0px
   }
 h2 {
-    background-color:rgba(199, 216, 198, 0.3);;
-    padding: 30px;
-    text-align: right;
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    font-weight:normal
+    font-family: "Helvetica", monospace;
+    font-size: 19px;
+    text-align: left;
     font-family: "Helvetica", monospace;
     color: rgba(255, 255, 255, 0.7);
-    font-size: 25px;
+
   }
 
   h3 {
   position: absolute;
-      top: 180px;
-      left: 20px:
-  font-family: "Helvetica", monospace;
-  color: rgba(255, 255, 255, 0.7);
-  text-align: left;
-  font-size: 18px;
-  }
-
-div{
-position: absolute;
-    top: 230px;
-    left: 80px;
-    color: rgba(255, 255, 255, 0.7);
-     font-family: "Helvetica", monospace;
-     font-size: 19px;
-     text-align: left;
-}
-
-div1 {
-  position: absolute;
-    top: 300px;
-    left: 80px;
-    width: 100px;
-    height: 500px;
-  padding: 5px;
-  font-family: "Helvetica", monospace;
-  font-size: 105px;
-  text-align: left;
-  color: rgba(255, 255, 255, 0.7);
-  }
-  div2 {
-    position: absolute;
-      top: 260px;
-      right: 100px;
-      width: 400px;
-      height: 500px;
+  top: 200px;
+  left: 80px;
+  width: 800px;
     padding: 5px;
     font-family: "Helvetica", monospace;
-    font-size: 25px;
+    font-size: 105px;
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
-    }
+  }
 
-    div0{
+  p1{
+     position: absolute;
+     top: 260px;
+     right: 460px;
+     width: 200px;
+     height: 500px;
+     padding: 5px;
+     font-family: "Helvetica", monospace;
+     font-size: 25px;
+     text-align: left;
+     color: rgba(255, 255, 255, 0.7);
+      }
+
+  p2{
+     position: absolute;
+     top: 260px;
+     right: 250px;
+     width: 200px;
+     height: 500px;
+     padding: 5px;
+     font-family: "Helvetica", monospace;
+     font-size: 25px;
+     text-align: left;
+     color: rgba(255, 255, 255, 0.7);
+       }
+
+ p3{
+     position: absolute;
+     top: 260px;
+     right: 60px;
+     width: 150px;
+     padding: 5px;
+     font-family: "Helvetica", monospace;
+     font-size: 25px;
+     text-align: right;
+     color: rgba(255, 255, 255, 0.7);
+     }
+
+pLongText{
+     position: absolute;
+     top: 260px;
+     right: 50px;
+     width: 400px;
+     padding: 5px;
+     font-family: "Helvetica", monospace;
+     font-size: 25px;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.7);
+     }
+
+    divBottom{
         position: absolute;
           top: 520px;
-          right: 10px;
+          right: 100px;
           width: 200px;
           height: 500px;
         padding: 5px;

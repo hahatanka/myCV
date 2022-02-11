@@ -17,14 +17,41 @@
             <li><a href="/">Home</a></li>
         </ul>
         <main>
-            <section>
-                <div>
-                    <span>WELCOME TO...</span>
-                </div>
-                <div1>My CV page</div1>
-                <div0>
+            <h2>
+                <span style="font-weight:normal">WELCOME TO...</span>
+            </h2>
+            <h3> <span style="font-weight:normal">My CV Page</span></h3>
+                <p1>
+                    <form method="get" action="/contact">
+                        <div>
+                            <label>Enter your name</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div>
+                            <label>Enter your email</label>
+                            <input type="email" name="emailAddress">
+                        </div>
+                        <div>
+                            <label>Choose an option</label>
+                            <select name="messageType">
+                                <option>Enquiry</option>
+                                <option>Job offer</option>
+                                <option>Suggestions</option>
+                                <option>Complaints</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Type your message</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+            </p1>
+                <divBottom>
                     <span>Hello!</span>
-                </div0>
+                </divBottom>
             </section>
         </main>
     </header>

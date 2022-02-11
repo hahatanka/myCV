@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>My Profile</title>
@@ -18,26 +18,49 @@
     </ul>
     <main>
       <section>
+        <h2>
+          <span style="font-weight:normal">YOU ARE VIEWING...</span>
+        </h2>
+        <h3> <span style="font-weight:normal">My Profile</span></h3>
+        <p1>
+          <div>
+            <span><b>Name:</b></span>
+            <span th:text="${userName}"></span>
+          </div>
+          <div>
+            <span><b>Location:</b></span>
+            <span th:text="${location}"></span>
+          </div>
+          <div>
+            <span><b>Age:</b></span>
+            <span th:text="${age}"></span>
+          </div>
+        </p1>
+        <p2>
+          <div>
+            <span>Name: </span>
+            <span style="text-transform: capitalize" th:text="${myPet.getName()}"></span>
+          </div>
+          <div>
+            <span>Age: </span>
+            <span th:text="${myPet.getAge()}"></span>
+          </div>
+          <div>
+            <span>Type: </span>
+            <span th:text="${#strings.toLowerCase(myPet.getType())}"></span>
+          </div>
+        </p2>
+
+        <p3>
         <div>
-          <span>YOU ARE VIEWING...</span>
+          <span>My Hobbies</span>
+          <ol type="1">
+            <li th:each="hobby: ${myHobbies}">
+              <span th:text="${hobby.getName()}"></span>
+            </li>
+          </ol>
         </div>
-        <div1>My Profile</div1>
-        <div2>
-          <span><b>Name:</b></span>
-          <span>Anna Kostenko</span>
-          <br>
-          <br>
-        <span><b>Location:</b></span>
-        <span>Riga</span>
-          <br>
-          <br>
-          <span><b>Phone:</b></span>
-          <span>123456</span>
-          <br>
-          <br>
-          <span><b>Email:</b></span>
-          <span>anna@kos</span>
-        </div2>
+        </p3>
       </section>
 <!--      <div class="dropdown">-->
 <!--        <button class="dropbtn">MENU</button>-->

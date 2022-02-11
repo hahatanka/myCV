@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>My superpowers</title>
@@ -18,21 +18,18 @@
     </ul>
     <main>
         <section>
-            <div>
-                <span>YOU ARE VIEWING...</span>
-            </div>
-            <div1>My Superpowers</div1>
-            <div2>
-
-                <span>Nothing much to be proud of,</span>
-                <br>
-                <span>but I can draw you a six pack </span>
-                <br>
-                <span>in Photoshop :DD</span>
-
-            </div2>
+            <h2>
+                <span style="font-weight:normal">YOU ARE VIEWING...</span>
+            </h2>
+            <h3> <span style="font-weight:normal">My Superpowers</span></h3>
+            <pLongText>
+                <ol>
+                    <li th:each="power: ${myPowers}">
+                        <span th:text="${power.getName()}"></span>
+                    </li>
+                </ol>
+            </pLongText>
         </section>
-
     </main>
 </header>
 </body>
