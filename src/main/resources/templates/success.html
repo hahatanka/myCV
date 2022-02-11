@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>My Work Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>ANNA CV</h1>
+    <ul>
+        <li><a href="superpowers">My Superpowers</a></li>
+        <li><a href="lang">Languages</a></li>
+        <li><a href="work">Work Experience</a></li>
+        <li><a href="education">Education</a></li>
+        <li><a href="profile">My profile</a></li>
+        <li><a href="/">Home</a></li>
+    </ul>
+    <div>
+        <h2>
+            <span>Thank you </span>
+            <span th:text="${name}"></span>
+            <span> for your </span>
+            <span th:text="${messageType}"></span>
+            <span> . We will reach out to you on your email </span>
+            <span th:text="${email}"></span>
+            <span> soon. </span>
+        </h2>
+        <a href="/">Go back to home page</a>
+    </div>
+</div>
+    </main>
+</header>
+</body>
+</html>html>
