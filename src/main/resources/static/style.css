@@ -1,0 +1,108 @@
+
+body {
+
+  background-image: url("https://img.wallpapersafari.com/desktop/1600/900/68/94/HpDEWg.jpg");
+  }
+
+  h1 {
+    background-color:rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    text-align: left;
+    font-family: "Helvetica";
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 40px;
+    margin: 0px
+  }
+h2 {
+    background-color:rgba(199, 216, 198, 0.3);;
+    padding: 30px;
+    text-align: right;
+    font-family: "Helvetica", monospace;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+  }
+
+  h3 {
+  position: absolute;
+      top: 180px;
+      left: 20px:
+  font-family: "Helvetica", monospace;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  font-size: 18px;
+  }
+
+div{
+position: absolute;
+    top: 230px;
+    left: 80px;
+    color: rgba(255, 255, 255, 0.7);
+     font-family: "Helvetica", monospace;
+     font-size: 19px;
+     text-align: left;
+}
+
+div1 {
+  position: absolute;
+    top: 300px;
+    left: 80px;
+  padding: 5px;
+  font-family: "Helvetica", monospace;
+  font-size: 105px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  }
+  div2 {
+    position: absolute;
+      top: 260px;
+      right: 100px;
+      width: 400px;
+      height: 500px;
+    padding: 5px;
+    font-family: "Helvetica", monospace;
+    font-size: 25px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    }
+    div0{
+        position: absolute;
+          top: 520px;
+          right: 10px;
+          width: 200px;
+          height: 500px;
+        padding: 5px;
+        font-family: "Helvetica", monospace;
+        font-size: 40px;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.7);
+        }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Helvetica", monospace;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+*/
