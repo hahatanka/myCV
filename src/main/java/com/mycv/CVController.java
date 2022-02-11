@@ -32,4 +32,8 @@ public class CVController {
     public String showSuperpowers(){
         return "superpowers";
     }
+    @GetMapping("/work")
+    public String showWorkExperience(){
+        return "work";
+    }
 }
